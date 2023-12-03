@@ -9,7 +9,7 @@ from io import StringIO
 import os
 
 # Set OPENAI_API_KEY as an environment variable
-openai_api_key = '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'
+openai_api_key = ''
 os.environ["OPENAI_API_KEY"] = openai_api_key
 
 llm = ChatOpenAI(temperature=0,max_tokens=1000,model_name="gpt-3.5-turbo")
