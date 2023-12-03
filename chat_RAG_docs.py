@@ -95,7 +95,7 @@ with st.sidebar:
                 full_response = result["answer"]
                 message_placeholder.markdown(full_response + "|")
             message_placeholder.markdown(full_response)
-            print(full_response)
+            # print(full_response)
             st.session_state.messages.append({"role": "assistant", "content": full_response})
 
     else:
